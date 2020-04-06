@@ -20,6 +20,7 @@ function equate(state, input){
     if (input == "0") {
       output = "infinity";
     } else {
+      
       output = state.content.previousOperand / Number(input);
     }
   } else if (state.content.operator == "") {
