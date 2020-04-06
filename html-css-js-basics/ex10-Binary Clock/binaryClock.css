@@ -1,0 +1,38 @@
+body{
+    background: white;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    width: 100wh;
+    height: 100vh;
+}
+
+.time{
+    position: absolute;
+    color: #ffff  ;
+    font-size: 40px ;
+    
+}
+
+.info{
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+     
+}
+
+tr {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #4ECCA3;
+}

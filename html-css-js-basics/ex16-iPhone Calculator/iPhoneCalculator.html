@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Calculator</title>
+    <link rel="stylesheet" href="iPhoneCalculator.css">
+</head>
+
+<body>
+    <div class="board">
+
+
+        <table>
+            <thead>
+                <tr>
+                    <td class="result"><span id="result">0</span></td>
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+                <tr class="row">
+                    <td class="button lightGray" onclick="readButton('clear')">AC</td>
+                    <td class="button lightGray" onclick="readButton('negate')">+/-</td>
+                    <td class="button lightGray" onclick="readButton('percentage')">%</td>
+                    <td class="button yellow" onclick="readButton('divide')">/</td>
+                </tr>
+                <tr class="row">
+                    <td class="button gray" onclick="readButton('7')">7</td>
+                    <td class="button gray" onclick="readButton('8')">8</td>
+                    <td class="button gray" onclick="readButton('9')">9</td>
+                    <td class="button yellow" onclick="readButton('multiply')">*</td>
+                </tr>
+                <tr class="row">
+                    <td class="button gray" onclick="readButton('4')">4</td>
+                    <td class="button gray" onclick="readButton('5')">5</td>
+                    <td class="button gray" onclick="readButton('6')">6</td>
+                    <td class="button yellow" onclick="readButton('minus')">-</td>
+                </tr>
+                <tr class="row">
+                    <td class="button gray" onclick="readButton('1')">1</td>
+                    <td class="button gray" onclick="readButton('2')">2</td>
+                    <td class="button gray" onclick="readButton('3')">3</td>
+                    <td class="button yellow" onclick="readButton('plus')">+</td>
+                </tr>
+                <tr class="row1">
+                    <td class="button gray zero" onclick="readButton('0')">0</td>
+                    <td class="button gray" onclick="readButton('.')">.</td>
+                    <td class="button yellow" onclick="readButton('equals')">=</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+    <script src="iPhoneCalculator.js"></script>
+</body>
+
+</html>

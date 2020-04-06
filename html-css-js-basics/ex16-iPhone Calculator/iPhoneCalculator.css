@@ -1,0 +1,91 @@
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100wh;
+    height: 100vh;
+}
+
+.board {
+    display: grid;
+    padding-left: 10px;
+    grid-template-rows: 20% 14.4% 14.4% 14.4% 14.4% 14.4%;
+    background-color: black;
+    border-radius: 2rem;
+    height: 500px;
+    width: 300px;
+    justify-content: center;
+    justify-self: center;
+    box-shadow: 0 0 8px 8px gray;
+}
+
+
+.result {
+    width: 270px;
+    height: 140px;
+    text-align: right;
+    color: white;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.result span {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    width: 270px;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 270px;
+    margin-bottom: 8px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    text-align: center;
+}
+
+.button {
+    border-radius: 28px;
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 56px;
+}
+
+.button:hover{
+    opacity: 70%;
+}
+
+.zero {
+    width: 122px
+}
+
+.zero:hover{
+    opacity: 70%;
+}
+
+.lightGray {
+    background-color: gray;
+}
+
+.gray {
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+
+.yellow {
+    background-color: rgb(255, 174, 0);
+    color: white;
+}

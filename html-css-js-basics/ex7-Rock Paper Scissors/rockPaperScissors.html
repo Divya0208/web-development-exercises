@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rockPaperScissors.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Lets Play!</h1>
+
+    <div class="container">
+      
+      <div class="rockPaperScissors">
+        <p>Computer</p>
+        <img class="img1" src="https://github.com/Divya0208/web-development-exercises/blob/master/html-css-js-basics/ex7-Rock%20Paper%20Scissors/images/image3.png?raw=true" >
+      </div>
+
+      <div class="rockPaperScissors">
+        <p>You</p>
+        <img class="img2" src="https://github.com/Divya0208/web-development-exercises/blob/master/html-css-js-basics/ex7-Rock%20Paper%20Scissors/images/image3.png?raw=true">
+      </div>
+
+      <div class="button-container">
+        <button class="button" onclick="play(1)">Rock</button>
+        <button class="button" onclick="play(2)">Paper</button>
+        <button class="button" onclick="play(3)">Scissor</button>
+      </div>
+
+      <div class="button-container">
+        <table>
+          <thead>
+            <tr>
+              <td colspan="2">Score Board</td>
+            </tr>
+            <tr>
+              <td>Computer</td>
+              <td>You</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="score1">0</td>
+              <td id="score2">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+    <script src = "rockPaperScissors.js"></script>
+  </body>
+
+  
+</html>
+

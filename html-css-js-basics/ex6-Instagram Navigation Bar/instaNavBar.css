@@ -1,0 +1,39 @@
+body
+{
+    background-color: rgb(240, 232, 232);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow : hidden;
+}
+
+.bar
+{
+    background-color: white;
+    border: black;
+    height: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 1em;
+}
+
+.icon
+{
+    display: none;
+}
+
+#searchBlack
+{
+    height:30px;
+    width:30px;
+}
+
+.active
+{
+    display: block;
+}

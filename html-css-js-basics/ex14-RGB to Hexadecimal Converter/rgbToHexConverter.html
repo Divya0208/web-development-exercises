@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB to Hexadecimal</title>
+    <link rel="stylesheet" href="rgbToHexConverter.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="container">
+                <h2>RGB to Hexadecimal Converter</h2>
+                <div class="red" >
+                    <span>Red : </span>
+                    <br>
+                    <input type="range" name="Red" id="Red" max="255" min="0" value="0" oninput="changeColor()">
+                </div>
+                <div class="green" >
+                    <span>Green : </span>
+                    <br>
+                    <input type="range" name="Green" id="Green" max="255" min="0" value="0" oninput="changeColor()">
+                </div>
+                <div  class="blue" >
+                    <span>Blue : </span>
+                    <br>
+                    <input type="range" name="Blue" id="Blue" max="255" min="0" value="0" oninput="changeColor()">
+                </div>
+                <div class="opacity">
+                    <span>Opacity : </span>
+                    <br>
+                    <input type="range" name="Opacity" id="Opacity" max="255" min="0" value="255" oninput="changeColor()">
+                </div>
+                <div id="Color" class="color" > 
+                </div>                            
+                <div id="Hexadec" class="hexadec">    
+                    #000000FF
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="rgbToHexConverter.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin-bottom: 0;
+    grid-template-rows: 90% 10%;
+    overflow: hidden;
+    
+}
+
+.ImageContainer{
+    display: flex;
+    justify-items: center;
+    align-items: center; 
+
+}
+
+.Image{
+    display:none;
+    margin-top: 3rem;
+    max-height: 60vw;
+    max-width: 70vh;
+
+}
+
+.Show{
+    display: block;
+    align-self: center;
+}
+
+.Arrows{
+    height : 2rem;
+    width: 2rem;
+}
+
+.Arrows:hover{
+    opacity: 60%;
+}
+
+.Previous
+{   margin-top: 16%;
+    margin-left: 5%;
+    
+}
+
+.Next
+{   margin-top: 16%;
+    margin-right: 2%;
+}
+
+.IndicatorContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.Indicator{
+    width: 15px;
+    height: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.Indicator:hover{
+    opacity: 60%;
+}
+
+.currentSlide{
+    opacity: 60%;
+}

@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Clock </title>
+    <link rel="stylesheet" href="countdownClock.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="countdownContainer">
+        
+            <div class="row">
+                <h2>Countdown Clock</h2>
+            </div>
+       
+            <div class="row">
+                <input type="datetime-local" class="dateField" id="date">
+            </div>
+            <div class="row">
+                <button class="button" onclick="countdown()">Start</button>
+            </div>
+            <table class="row">
+            <tr>
+                <td id="days" class="time-component">00</td>
+                <td id="hours" class="time-component">00</td>
+                <td id="minutes" class="time-component">00</td>
+                <td id="seconds" class="time-component">00</td>
+            </tr>
+            <tr>
+                <td class="time-component">Days</td>
+                <td class="time-component">Hours</td>
+                <td class="time-component">Minutes</td>
+                <td class="time-component">Seconds</td>
+            </tr>
+        </table>
+
+
+
+
+    <script src="countdownClock.js"></script>
+</body>
+
+</html>

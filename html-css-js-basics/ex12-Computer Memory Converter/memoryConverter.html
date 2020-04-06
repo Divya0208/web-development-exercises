@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Memory Converter</title>
+    <link rel="stylesheet" href="memoryConverter.css">
+</head>
+<body>
+    <form class="container">
+
+        <h4>Select unit for input memory : </h4>
+        <select id="from" class="dropdown">
+            <option value=0 class="option">Bit</option>
+            <option value=3 class="option">Byte</option>
+            <option value=13 class="option">Kilobyte</option>
+            <option value=23 class="option">Megabyte</option>
+            <option value=33 class="option">Gigabyte</option>
+            <option value=43 class="option">Terabyte</option>
+
+        </select>
+
+        <h4>Enter memory size : </h4>
+        <input type="number" id="number" class="textfield"></input>
+
+        <h4>Select unit for output memory : </h4>
+        <select id="to" class="dropdown">
+            <option value=0 class="option">Bit</option>
+            <option value=3 class="option">Byte</option>
+            <option value=13 class="option">Kilobyte</option>
+            <option value=23 class="option">Megabyte</option>
+            <option value=33 class="option">Gigabyte</option>
+            <option value=43 class="option">Terabyte</option>
+        </select>
+        <br>
+
+        <button onclick="convert()" class="button">Convert</button>
+
+        <h2 id="result"> </h2>
+
+
+
+
+    </form>
+
+    <script src="memoryConverter.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+    
+}
+
+h1
+{
+    text-align: center;
+    color:black;
+}
+
+h2
+{
+    color: black;
+}
+
+
+.grid-container{
+    display: grid; 
+    grid-template-columns: auto auto auto;   
+    background-color:rgb(17, 9, 48);
+    margin-right:2em;
+    width:100%;
+    
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid gray;
+    font-size: 10px;
+    text-align: center;
+  }
