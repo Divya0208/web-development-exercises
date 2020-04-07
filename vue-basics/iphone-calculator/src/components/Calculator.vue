@@ -130,18 +130,17 @@
 <script>
 import { mapActions, mapGetters } from "vuex";
 export default {
-  name: 'Calculator',
+  name: "Calculator",
   methods: {
     ...mapActions(["read_Button"]),
 
-    
     readButton(button) {
       this.read_Button(button);
-    }
+    },
   },
 
   computed: {
-    ...mapGetters(["getOutput"])
-  }
+    ...mapGetters(["getOutput"]),
+  },
 };
 </script>
